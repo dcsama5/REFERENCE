@@ -37,6 +37,9 @@ public class Main implements ApplicationInterface {
                 case "SHOW":
                     showData();
                     break;
+                case "DELETE"
+                        deleteEntry();
+                        break;
                     
             }
             
@@ -69,6 +72,12 @@ public class Main implements ApplicationInterface {
             System.out.println(e.getAccount()+"  :   " + e.getDate()+"   :   "+e.getExcerpt()+"  :   "+e.getComments()+"  :  "+e.getLink());
         }
         
+    }
+
+    private void deleteEntry() {
+        
+        
+            
     }
     /**
      * Generates a map of all column value pairs for each row on the database. Expects only a single

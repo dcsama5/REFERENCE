@@ -1,0 +1,19 @@
+/*C9*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C14*/SET SCHEMA PUBLIC
+INSERT INTO REFERENCE VALUES('AMEER','static keyword java','','Find out why the use of static keyword compared to a normal member variable.','2013-07-28 16:53:06.000000')
+COMMIT
+/*C10*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C13*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C12*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C11*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C14*/DISCONNECT
+/*C15*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C20*/SET SCHEMA PUBLIC
+INSERT INTO REFERENCE VALUES('AMEER','I''m done with weed','','Enough. I want to get rid of that leaf symbol that attached to marijuana. I don''t want to do it anymore. In my head, its telling me why do you want to be so conservative like that, well the reality is is that its nothing to do with conforming to conservative stereotypes. Its to do with making your lifebetter.','2013-07-28 18:11:30.828000')
+COMMIT

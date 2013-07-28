@@ -16,7 +16,7 @@ public interface ExcerptSpitterDAO {
     public void setSpitterTemplate(JdbcTemplate jdbcTemplate);
     public void addExcerpt(Excerpt exc);
     public boolean createTable();
-    public void removeExcerpt();
-    public void updateExcerpt();
+    public void removeExcerpt(Excerpt exc);
+    public void updateExcerpt(Excerpt exc);
     public Map<String, Object> getMappedExcerpt();
 }
