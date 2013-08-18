@@ -820,6 +820,7 @@ INSERT INTO REFERENCE VALUES('AMEER','Don''t like this business of getting high.
 INSERT INTO REFERENCE VALUES('AZAL','PEW','PEW','PEW','2013-08-08 03:43:39.000000')
 INSERT INTO REFERENCE VALUES('Ameer','Questioning your intelligence','','I seem to be questioning my intelligence quite  a lot and being self-conscious about it. Like if I can''t solve something then I would feel stupid, especially in the presence of others?','2013-07-27 14:31:12.953000')
 INSERT INTO REFERENCE VALUES('BJJ','"Lumberjack variant takedown"','http://www.youtube.com/watch?v=dzBk4imIZfY&t=2m26s','Lumberjack from when somebody has stoop up.','2013-07-27 17:57:24.390000')
+INSERT INTO REFERENCE VALUES('BJJ','I must go to BJJ','','none','2013-08-18 04:19:47.000000')
 INSERT INTO REFERENCE VALUES('PSYCHO','PSYCHO123','MP','EWE','2013-08-13 23:10:53.000000')
 INSERT INTO REFERENCE VALUES('ameer','gotta stop smoking weed','','designate your next smoke date and stick to it. should be until you get your vaporiser. save that weed that you have left. don''t smoke cigarettes','2013-07-26 21:27:43.890000')
 INSERT INTO PEOPLE VALUES('DDD',22)
