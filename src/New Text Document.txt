@@ -1,1 +1,0 @@
-java -cp ..\dist\lib\hsql.jar org.hsqldb.server.Server --props settings.props
