@@ -24,13 +24,9 @@
 
     <!-- General description of your web application -->
 
-    <display-name>My Web Application</display-name>
+    <display-name>Excerpt Application</display-name>
     <description>
-      This is version X.X of an application to perform
-      a wild and wonderful task, based on servlets and
-      JSP pages.  It was written by Dave Developer
-      (dave@mycompany.com), who should be contacted for
-      more information.
+    Enter your Excccceerppts
     </description>
 
 
