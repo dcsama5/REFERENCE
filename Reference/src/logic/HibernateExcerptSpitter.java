@@ -18,7 +18,6 @@ import org.springframework.stereotype.Repository;
  */
 
     @Repository
-  
 public class HibernateExcerptSpitter implements ExcerptSpitterDAO {
 
         @Autowired

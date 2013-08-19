@@ -25,7 +25,7 @@ public class Main implements ApplicationInterface {
     public static final ApplicationContext ctx = new ClassPathXmlApplicationContext("logic/xmlconfig.xml");
     public static Scanner sc = new Scanner(System.in);
     //public static JDBCExcerptSpitter exc = (JDBCExcerptSpitter) ctx.getBean("excerptDAO");
-    public static ExcerptSpitterDAO exc = (ExcerptSpitterDAO) ctx.getBean("hibernateDAO");
+    public static ExcerptSpitterDAO exc = (ExcerptSpitterDAO) ctx.getBean("hibernateExcerptSpitter");
     public static void main(String[] args) throws SQLException
     {
         String input = sc.nextLine();

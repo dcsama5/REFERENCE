@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
  * @author Administrator
  */
 public interface ExcerptSpitterDAO {
-    Date date = new Date(113, 7, 1);
+    
     public void setSpitterTemplate(JdbcTemplate jdbcTemplate);
     public void addExcerpt(Excerpt exc);
     public boolean createTable();

@@ -6,6 +6,7 @@ package mvc;
 
 import java.util.Date;
 import java.util.Map;
+import javax.inject.Inject;
 import org.springframework.stereotype.Controller;
 import logic.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,14 +21,18 @@ public class HomeController {
     
 
     
-    @Autowired
-    private ExcerptSpitterDAO hibernateDAO;
-    
+    @Inject
+    private ExcerptSpitterDAO hibernateExcerptSpitter;
+    Date date = new Date(113, 7, 1);
+    public HomeController(ExcerptSpitterDAO hibernateExcerptSpitter)
+    {
+        this.hibernateExcerptSpitter = hibernateExcerptSpitter;
+    }
     @RequestMapping({"/", "/home"})
     
     public String showHomePage(Map<String, Object> model)
     {
-        model.put("excerpts", hibernateDAO.retrieveByDate(ExcerptSpitterDAO.date));
+            model.put("excerpts", hibernateExcerptSpitter.retrieveByDate(date));
         return "home";
     }
 }
