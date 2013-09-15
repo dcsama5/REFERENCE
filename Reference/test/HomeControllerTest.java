@@ -36,7 +36,7 @@ Date date = new Date(113, 7, 1);
         List<Excerpt> expectedExcerpt = asList(new Excerpt(), new Excerpt(), new Excerpt());
         ExcerptSpitterDAO exc = mock(HibernateExcerptSpitter.class);
         
-        when(exc.retrieveByDate(date)).thenReturn(expectedExcerpt);
+        when(exc.retrieveByDate("AMEER")).thenReturn(expectedExcerpt);
         
         HomeController controller = new HomeController(exc);
         
@@ -44,7 +44,7 @@ Date date = new Date(113, 7, 1);
         String viewName = controller.showHomePage(model);
         assertEquals("home", viewName);
         assertSame(expectedExcerpt, model.get("excerpts"));
-        verify(exc).retrieveByDate(date);
+        verify(exc).retrieveByDate("AMEER");
     }
     
 }

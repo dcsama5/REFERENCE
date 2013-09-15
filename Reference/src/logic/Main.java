@@ -75,7 +75,7 @@ public class Main implements ApplicationInterface {
     
     private static void showData() {
        Date date = new Date(113, 7, 1);
-       List<Excerpt> objects = exc.retrieveByDate(date);
+       List<Excerpt> objects = exc.retrieveByDate("AMEER");
        
        for(int i=0; i<objects.size(); i++)
        {    
