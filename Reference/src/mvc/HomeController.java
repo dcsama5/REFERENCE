@@ -7,16 +7,15 @@ package mvc;
 import java.util.Date;
 import java.util.Map;
 import javax.inject.Inject;
-import org.springframework.stereotype.Controller;
 import logic.*;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  *
  * @author Administrator
  */
-@Controller
+//@Controller
 public class HomeController {
     
 
@@ -32,7 +31,7 @@ public class HomeController {
     
     public String showHomePage(Map<String, Object> model)
     {
-            model.put("excerpts", hibernateExcerptSpitter.retrieveByDate(date));
+            model.put("excerpts", hibernateExcerptSpitter.retrieveByDate("AMEER"));
         return "home";
     }
 }

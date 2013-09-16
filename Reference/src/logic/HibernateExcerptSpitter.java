@@ -6,6 +6,7 @@ package logic;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import javax.inject.Inject;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -79,8 +80,8 @@ public class HibernateExcerptSpitter implements ExcerptSpitterDAO {
     }
 
     @Override
-    public List retrieveByDate(Date d) {
-        List objects = currentSession().createQuery("FROM Excerpt E WHERE E.id.date < ?").setDate(0, d).list();
+    public List retrieveByDate(String name) {
+        List objects = currentSession().createQuery("FROM Excerpt E WHERE E.account < ?").setString(0, name).list();
         return objects;
     }
     

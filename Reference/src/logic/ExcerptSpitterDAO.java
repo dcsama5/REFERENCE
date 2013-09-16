@@ -21,5 +21,5 @@ public interface ExcerptSpitterDAO {
     public void updateExcerpt(Excerpt exc);
     public Map<String, Object> getMappedExcerpt();
     public Object getEntity(ExcerptIdentifier id);
-    public List retrieveByDate(Date d);
+    public List retrieveByDate(String name);
 }

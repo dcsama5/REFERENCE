@@ -94,11 +94,6 @@
     <servlet-name>ExcerptDispatcher</servlet>
     <url-pattern>/</url-pattern>
     
-    <listener>
-    	<listener-class>
-    		org.springframework.web.context.ContextLoaderListener
-    	</listener-class>
-    </listener>
     
     <servlet>
       <servlet-name>controller</servlet-name>
