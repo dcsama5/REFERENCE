@@ -814,8 +814,11 @@ INSERT INTO ITEM VALUES(49,19,49,9,7.80)
 INSERT INTO ITEM VALUES(49,20,8,22,9.90)
 INSERT INTO ITEM VALUES(49,21,7,4,11.40)
 INSERT INTO REFERENCE VALUES('ABRAR','Must make an effort with my sister','','She is giving me the impression that I am a boring individual which I am because there isn''t much I do with my time','2013-08-18 06:08:14.000000')
+<<<<<<< HEAD
+=======
 INSERT INTO REFERENCE VALUES('AMEER','gotta stop smoking weed','','designate your next smoke date and stick to it. should be until you get your vaporiser. save that weed that you have left. don''t smoke cigarettes','2013-07-26 21:27:43.890000')
 INSERT INTO REFERENCE VALUES('AMEER','Questioning your intelligence','','I seem to be questioning my intelligence quite  a lot and being self-conscious about it. Like if I can''t solve something then I would feel stupid, especially in the presence of others?','2013-07-27 14:31:12.953000')
+>>>>>>> 44aab2eac3c5ef7b781592efdbba4e3a8b856db3
 INSERT INTO REFERENCE VALUES('AMEER','Saying too much.','','You need to be a little private about your life. Create mystery about what you are doing. ','2013-07-27 18:16:41.734000')
 INSERT INTO REFERENCE VALUES('AMEER','well that didn''t last very long','','smoked some weed and broke off 26/08/2013 ','2013-07-27 18:24:52.609000')
 INSERT INTO REFERENCE VALUES('AMEER','CONCEPT','','ITS THE PERFORMING ON THE CONCEPT ','2013-07-27 18:29:20.359000')
